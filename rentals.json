@@ -25,5 +25,14 @@
     "author": "Alex",
     "rating": 9,
     "content": "Nice view of the volcano!"
+  }],
+  "announcements": [{
+    "date": "2017-03-01",
+    "title": "announcements title 1",
+    "message": "Special message 1"
+  }, {
+    "date": "2017-03-02",
+    "title": "announcements title 1",
+    "message": "Special message 2"
   }]
 }

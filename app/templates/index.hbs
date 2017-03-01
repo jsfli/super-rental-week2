@@ -1,3 +1,11 @@
+<h1> Special Annoucements</h1>
+
+<ul>
+  {{#each model.announcements as |announcement|}}
+    {{announcement-tile announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
+  {{/each}}
+</ul>
+
 <h1> Welcome to Super Rentals </h1>
 
 We hope you find exactly what you're looking for in a place to stay.
