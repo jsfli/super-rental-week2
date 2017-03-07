@@ -14,7 +14,9 @@ export default Ember.Component.extend({
         type: this.get('type')?this.get('type'):"",
         image: this.get('image')?this.get('image'):"",
         bedrooms: this.get('bedrooms')?this.get('bedrooms'):"",
-        cost: parseInt(this.get('cost'))
+        cost: parseInt(this.get('cost'))?this.get('cost'):"",
+        latitude: this.get('latitude'),
+        longitude: this.get('longitude'),
       };
       this.set('addNewRental', false);
       this.sendAction('saveRental2', params);
